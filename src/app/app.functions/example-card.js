@@ -39,7 +39,7 @@ exports.main = async (context = {}, sendResponse) => {
 
 								 },
 
-							 ],
+							 ]
 					 },
 					 ],
 				}
