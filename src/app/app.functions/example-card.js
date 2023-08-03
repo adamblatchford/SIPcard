@@ -1,11 +1,28 @@
 exports.main = async (context = {}, sendResponse) => {
-    sendResponse({
-      sections:  [
-        {
-          "type":"text",
-          "format":"markdown",
-          "text": "A table that displays deal data."
-      }
-      ],
-    });
+	const {
+		propertiesToSend: { dealname }
+    }= context;
+	
+	try {
+		
+		sendResponse({
+			
+			title: 'This card retrieves Situation in Play deal details.',
+			sections: [
+				{
+				 "type": "tile",
+				 "body": [
+				
+					 {
+						 "type": "text",
+						 "format": "markdown",
+						 "text": dealname
+					 }
+					 ],
+				}
+				],
+		});
+	} catch (error) {
+		console.error(error);
+	}
 };
