@@ -16,7 +16,7 @@ exports.main = async (context = {}, sendResponse) => {
 					 {
 						 "type": "text",
 						 "format": "markdown",
-						 "text": deal_situation
+						 "text": "**"+deal_situation+"**"
 					 }
 					 ],
 				}
