@@ -37,7 +37,7 @@ exports.main = async (context = {}, sendResponse) => {
 									 "label": "Type of Process",
 									 "value": situation_in_play___type_of_process
 
-								 },
+								 }
 
 							 ],
 					 },
