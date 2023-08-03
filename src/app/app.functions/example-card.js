@@ -1,6 +1,6 @@
 exports.main = async (context = {}, sendResponse) => {
 	const {
-		propertiesToSend: { name } = context;
+		propertiesToSend: { dealname } = context;
 	
 	try {
 		
@@ -15,7 +15,7 @@ exports.main = async (context = {}, sendResponse) => {
 					 {
 						 "type": "text",
 						 "format": "markdown",
-						 "text": name
+						 "text": dealname
 					 }
 					 ]
 				}
