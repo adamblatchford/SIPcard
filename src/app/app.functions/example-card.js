@@ -18,7 +18,29 @@ exports.main = async (context = {}, sendResponse) => {
 						 "type": "text",
 						 "format": "markdown",
 						 "text": "**"+deal_situation+"**"
-					 }
+					 },
+
+					  {
+						 "type": "descriptionList",
+						 "direction": "row",
+						 "items":
+							 [
+								 {
+									 "label": "Deal Situation",
+									 "value": deal_situation
+								 },
+								 {
+									 "label": "Coming to Market",
+									 "value": situation_in_play___time_to_market__qtr_
+								 },
+								 {
+									 "label": "Type of Process",
+									 "value": situation_in_play___type_of_process
+
+								 },
+
+							 ],
+					 },
 					 ],
 				}
 				],
