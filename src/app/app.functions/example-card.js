@@ -17,7 +17,7 @@ exports.main = async (context = {}, sendResponse) => {
 						 "format": "markdown",
 						 "text": dealname
 					 }
-					 ]
+					 ],
 				}
 				],
 		});
