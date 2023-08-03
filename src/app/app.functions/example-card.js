@@ -19,7 +19,7 @@ exports.main = async (context = {}, sendResponse) => {
 					 }
 					 ]
 				}
-				]
+				],
 		});
 	} catch (error) {
 		console.error(error);
