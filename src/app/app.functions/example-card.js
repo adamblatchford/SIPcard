@@ -74,7 +74,7 @@ exports.main = async (context = {}, sendResponse) => {
 							    variant: Alert_variant,
 							    body: {
 								    type: 'text',
-								    text: pipelinelabel,
+								    text: pipelinelabel+' : '+dealstagelabel,
 							    },
 						    },
 					    ]
