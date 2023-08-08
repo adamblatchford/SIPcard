@@ -88,7 +88,7 @@ exports.main = async (context = {}, sendResponse) => {
 
 						"type": "text",
 						 "format": "markdown",
-						 "text": "situation_in_play___sector___capability" 
+						 "text": situation_in_play___sector___capability
 					 },
 					 
 					 
