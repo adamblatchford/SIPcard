@@ -26,7 +26,7 @@ exports.main = async (context = {}, sendResponse) => {
 						 "items":
 							 [
 								 {
-									 "label": "Deal Situation",
+									 "label": "Deal Situation2",
 									 "value": deal_situation
 								 },
 								
