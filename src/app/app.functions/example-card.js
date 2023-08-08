@@ -20,6 +20,37 @@ exports.main = async (context = {}, sendResponse) => {
 		pipelinelabel = pipeline == '3778380' ? 'Buy Side Execution' : pipelinelabel
 		pipelinelabel = pipeline == '3854177' ? '(Retired)' : pipelinelabel
 
+		dealstagelabel = ''
+		dealstagelabel = dealstage == '11847342' ? 'Identify Opportunity' : dealstagelabel
+		dealstagelabel = dealstage == '11847343' ? 'Create & Deliver Proposal' : dealstagelabel
+		dealstagelabel = dealstage == '11847344' ? 'Close the Sale' : dealstagelabel
+		dealstagelabel = dealstage == '11835477' ? 'Negotiate Contract' : dealstagelabel
+		dealstagelabel = dealstage == '11835478' ? 'Launch Engagement (Closed Won)' : dealstagelabel
+		dealstagelabel = dealstage == '11847346' ? 'Closed Lost' : dealstagelabel
+		dealstagelabel = dealstage == '13329844' ? 'On Hold' : dealstagelabel
+		dealstagelabel = dealstage == '11835521' ? 'Pre Kick Off' : dealstagelabel
+		dealstagelabel = dealstage == '11835522' ? 'Info Prep' : dealstagelabel
+		dealstagelabel = dealstage == '11835523' ? 'Marketing' : dealstagelabel
+		dealstagelabel = dealstage == '11835524' ? 'First Round Offer' : dealstagelabel
+		dealstagelabel = dealstage == '11835525' ? 'Second Round Offer' : dealstagelabel
+		dealstagelabel = dealstage == '11835526' ? 'At Heads' : dealstagelabel
+		dealstagelabel = dealstage == '11835527' ? 'Exchanged' : dealstagelabel
+		dealstagelabel = dealstage == '34472200' ? 'Completed (Earnout Pending)' : dealstagelabel
+		dealstagelabel = dealstage == '11835528' ? 'Completed' : dealstagelabel
+		dealstagelabel = dealstage == '11835529' ? 'Dead' : dealstagelabel
+		dealstagelabel = dealstage == '13304366' ? 'On Hold' : dealstagelabel
+		dealstagelabel = dealstage == '15403561' ? 'Pre-Kick Off / Preparation' : dealstagelabel
+		dealstagelabel = dealstage == '13340211' ? 'Active Delivery' : dealstagelabel
+		dealstagelabel = dealstage == '15403563' ? 'Ongoing Support' : dealstagelabel
+		dealstagelabel = dealstage == '13340209' ? 'Closed' : dealstagelabel
+		dealstagelabel = dealstage == '13338206' ? 'On Hold' : dealstagelabel
+		dealstagelabel = dealstage == '12850347' ? 'Pre Kick Off' : dealstagelabel
+		dealstagelabel = dealstage == '12850348' ? 'Search' : dealstagelabel
+		dealstagelabel = dealstage == '12850349' ? 'Outreach' : dealstagelabel
+		dealstagelabel = dealstage == '13683514' ? 'Execution' : dealstagelabel
+		dealstagelabel = dealstage == '12850350' ? 'Complete - With Transaction' : dealstagelabel
+		dealstagelabel = dealstage == '12849591' ? 'Complete - Without Transaction' : dealstagelabel
+
 		
 		sendResponse({
 			
