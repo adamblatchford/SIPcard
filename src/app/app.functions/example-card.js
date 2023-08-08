@@ -5,6 +5,14 @@ exports.main = async (context = {}, sendResponse) => {
 	try {
 		Alert_opportunity_ = true
 		Alert_variant = 'success'
+
+		Alert_variant =  deal_situation == 'Considering a Transaction' ? 'warning' : Alert_variant;
+		Alert_variant =  deal_situation == 'Coming to Market (Pitching)' ? 'warning' : Alert_variant;
+		Alert_variant =  deal_situation == 'Coming to Market (Info Prep)' ? 'success' : Alert_variant;
+		Alert_variant =  deal_situation == 'Cancelled/Held' ? 'error' : Alert_variant;
+		Alert_variant =  deal_situation == 'Completed (Opportunity)' ? 'info' : Alert_variant;
+		Alert_variant =  deal_situation == 'Completed (Execution)' ? 'info' : Alert_variant;
+		
 		sendResponse({
 			
 			title: 'This card retrieves Situation in Play deal details.',
