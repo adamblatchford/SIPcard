@@ -51,6 +51,9 @@ exports.main = async (context = {}, sendResponse) => {
 		dealstagelabel = dealstage == '12850350' ? 'Complete - With Transaction' : dealstagelabel
 		dealstagelabel = dealstage == '12849591' ? 'Complete - Without Transaction' : dealstagelabel
 
+		Alert_variant =  dealstage == '11847346' ? 'error' : Alert_variant;
+		Alert_variant =  dealstage == '11835529' ? 'error' : Alert_variant;
+
 		
 		sendResponse({
 			
