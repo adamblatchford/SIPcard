@@ -62,12 +62,6 @@ exports.main = async (context = {}, sendResponse) => {
 				{
 				 "type": "tile",
 				 "body": [
-				
-					 {
-						 "type": "text",
-						 "format": "markdown",
-						 "text": "**"+deal_situation+"**"
-					 },
 
 					 ...(Alert_opportunity_
 					    ? [
@@ -88,10 +82,6 @@ exports.main = async (context = {}, sendResponse) => {
 						 "direction": "row",
 						 "items":
 							 [
-								 {
-									 "label": "Deal Situation",
-									 "value": deal_situation
-								 },
 
 								  {
 									 "label": "Coming to Market",
@@ -100,6 +90,18 @@ exports.main = async (context = {}, sendResponse) => {
 								 {
 									 "label": "Type of Process",
 									 "value": situation_in_play___type_of_process
+
+								 },
+
+								{
+									 "label": "Audience",
+									 "value": situation_in_play___audience
+
+								 },
+
+								 {
+									 "label": "Audience Exclusions",
+									 "value": situation_in_play___audience_exclusions
 
 								 },
 
