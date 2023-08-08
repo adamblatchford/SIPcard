@@ -91,7 +91,10 @@ exports.main = async (context = {}, sendResponse) => {
 						 "text": situation_in_play___sector___capability
 					 },
 					 
-					 
+					  {
+						  "type": "divider",
+						  "distance": "large"
+					  },
 					 {
 						 "type": "descriptionList",
 						 "direction": "row",
