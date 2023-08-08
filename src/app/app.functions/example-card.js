@@ -83,6 +83,14 @@ exports.main = async (context = {}, sendResponse) => {
 						 "format": "markdown",
 						 "text": "`"+situation_in_play___headline+"`" 
 					 },
+
+					  {
+
+						"type": "text",
+						 "format": "markdown",
+						 "text": "situation_in_play___sector___capability" 
+					 },
+					 
 					 
 					 {
 						 "type": "descriptionList",
