@@ -22,7 +22,7 @@ exports.main = async (context = {}, sendResponse) => {
 					    ? [
 						    {
 							    type: 'alert',
-							    title: 'Live Opportunity',
+							    title: deal_situation,
 							    variant: 'success',
 							    body: {
 								    type: 'text',
